@@ -7,23 +7,23 @@ function App() {
 
   const quotes = [
     {
-      content: " Anjuuu Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      content: " Success is not final, failure is not fatal: It is the courage to continue that counts.",
       author: "Winston Churchill"
     },
     {
-      content: " Anjuuu Believe you can and you're halfway there.",
+      content: " Believe you can and you're halfway there.",
       author: "Theodore Roosevelt"
     },
     {
-      content: "Anjuuu The only way to do great work is to love what you do.",
+      content: "The only way to do great work is to love what you do.",
       author: "Steve Jobs"
     },
     {
-      content: "Anjuuuu If you want to achieve greatness stop asking for permission.",
+      content: "If you want to achieve greatness stop asking for permission.",
       author: "Anonymous"
     },
     {
-      content: " Anjuuu  You miss 100% of the shots you don’t take.",
+      content: " You miss 100% of the shots you don’t take.",
       author: "Wayne Gretzky"
     }
   ];
@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>📜 Anjuuu 500 kodola</h1>
+      <h1 style={styles.heading}>📜 Quotes </h1>
       {loading ? (
         <p style={styles.loading}>Loading...</p>
       ) : (
