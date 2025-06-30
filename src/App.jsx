@@ -7,23 +7,23 @@ function App() {
 
   const quotes = [
     {
-      content: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      content: " Anjuuu Success is not final, failure is not fatal: It is the courage to continue that counts.",
       author: "Winston Churchill"
     },
     {
-      content: "Believe you can and you're halfway there.",
+      content: " Anjuuu Believe you can and you're halfway there.",
       author: "Theodore Roosevelt"
     },
     {
-      content: "The only way to do great work is to love what you do.",
+      content: "Anjuuu The only way to do great work is to love what you do.",
       author: "Steve Jobs"
     },
     {
-      content: "If you want to achieve greatness stop asking for permission.",
+      content: "Anjuuuu If you want to achieve greatness stop asking for permission.",
       author: "Anonymous"
     },
     {
-      content: "You miss 100% of the shots you don’t take.",
+      content: " Anjuuu  You miss 100% of the shots you don’t take.",
       author: "Wayne Gretzky"
     }
   ];
@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>📜 QuoteSnap</h1>
+      <h1 style={styles.heading}>📜 Anjuuu 500 kodola</h1>
       {loading ? (
         <p style={styles.loading}>Loading...</p>
       ) : (
@@ -62,14 +62,17 @@ function App() {
 
 const styles = {
   container: {
-    fontFamily: 'Arial, sans-serif',
-    textAlign: 'center',
-    marginTop: '10%',
-    padding: '20px',
-    backgroundColor: '#111',
-    color: '#fff',
-    minHeight: '100vh'
-  },
+  fontFamily: 'Arial, sans-serif',
+  textAlign: 'center',
+  padding: '40px 20px',
+  backgroundColor: '#111',
+  color: '#fff',
+  minHeight: '100vh',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+},
+
   heading: {
     fontSize: '2.5rem',
     marginBottom: '30px',
